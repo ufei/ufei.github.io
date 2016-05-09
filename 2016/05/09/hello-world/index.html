@@ -104,7 +104,7 @@ Quick">
   var NexT = window.NexT || {};
   var CONFIG = {
     scheme: 'Mist',
-    sidebar: {"position":"left","display":"post"},
+    sidebar: {"position":"left","display":"always"},
     fancybox: true,
     motion: true,
     duoshuo: {
@@ -275,6 +275,13 @@ Quick">
 
           
             
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/05/09/hello-world/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2016/05/09/hello-world/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -360,6 +367,13 @@ Quick">
           
   <div class="comments" id="comments">
     
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
   </div>
 
 
@@ -397,7 +411,7 @@ Quick">
                src="/uploads/avatar.jpg"
                alt="Ufei" />
           <p class="site-author-name" itemprop="name">Ufei</p>
-          <p class="site-description motion-element" itemprop="description">在纯粹的人生中,坚定的做好每个细节</p>
+          <p class="site-description motion-element" itemprop="description">在纯粹的人生中,做好每个细节</p>
         </div>
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
@@ -408,11 +422,18 @@ Quick">
           </div>
 
           
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
 
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -423,6 +444,26 @@ Quick">
         
 
         <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/ufei" target="_blank" title="github">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  github
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://www.douban.com/people/ufeiwwz/" target="_blank" title="douban">
+                  
+                    <i class="fa fa-fw fa-douban"></i>
+                  
+                  douban
+                </a>
+              </span>
+            
           
         </div>
 
@@ -557,6 +598,27 @@ Quick">
 
 
 
+  
+
+    <script type="text/javascript">
+      var disqus_shortname = 'rzhao';
+      var disqus_identifier = '2016/05/09/hello-world/';
+      var disqus_title = 'Hello World';
+      var disqus_url = 'http://yoursite.com/2016/05/09/hello-world/';
+
+      function run_disqus_script(disqus_script){
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      }
+
+      run_disqus_script('count.js');
+      
+        run_disqus_script('embed.js');
+      
+    </script>
   
 
 
