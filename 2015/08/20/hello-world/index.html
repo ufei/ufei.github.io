@@ -90,7 +90,7 @@
 <meta property="og:url" content="http://yoursite.com/2015/08/20/hello-world/index.html">
 <meta property="og:site_name" content="探索的前端学习">
 <meta property="og:description" content="关于本博客简单的开始该博客是由hexo blog framework生成，在这个博客中记录学习前端的过程中的一些心得和体验下面开始努力记录吧">
-<meta property="og:updated_time" content="2016-05-09T13:56:16.106Z">
+<meta property="og:updated_time" content="2016-05-09T14:25:19.282Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hello World">
 <meta name="twitter:description" content="关于本博客简单的开始该博客是由hexo blog framework生成，在这个博客中记录学习前端的过程中的一些心得和体验下面开始努力记录吧">
@@ -328,8 +328,35 @@
       
         <h2 id="关于本博客"><a href="#关于本博客" class="headerlink" title="关于本博客"></a>关于本博客</h2><h3 id="简单的开始"><a href="#简单的开始" class="headerlink" title="简单的开始"></a>简单的开始</h3><p>该博客是由hexo blog framework生成，在这个博客中记录学习前端的过程中的一些心得和体验<br>下面开始努力记录吧</p>
 <a id="more"></a>
-<h3 id="我的前端实验室"><a href="#我的前端实验室" class="headerlink" title="我的前端实验室"></a>我的前端实验室</h3><p><a href="http://www.rzhao.club" target="_blank" rel="external">菜鸟实验室</a></p>
-
+<h3 id="我的前端实验室"><a href="#我的前端实验室" class="headerlink" title="我的前端实验室"></a>我的前端实验室</h3><p><a href="http://www.rzhao.club" target="_blank" rel="external">菜鸟实验室</a>，该网址下我记录了一些我的试验性的应用</p>
+<h2 id="对于前端开发的认识"><a href="#对于前端开发的认识" class="headerlink" title="对于前端开发的认识"></a>对于前端开发的认识</h2><p>前端开发，我认为主要解决问题：</p>
+<ul>
+<li>界面实现中的浏览器差异，包括css差异和js差异</li>
+<li>分担后端负担</li>
+<li>前台优化</li>
+</ul>
+<p>好的前端需要均衡数量和速度两个考虑方面</p>
+<h2 id="一些我认为在html中基础知识"><a href="#一些我认为在html中基础知识" class="headerlink" title="一些我认为在html中基础知识"></a>一些我认为在html中基础知识</h2><h3 id="主流浏览器"><a href="#主流浏览器" class="headerlink" title="主流浏览器"></a>主流浏览器</h3><p>我们常常说浏览器之间有差异，那么差异怎么产生的？<br>尽管在css中有w3c标准，但事实上对于不同效果的解析，各个浏览器厂商使用不同的解决方案，差异因此而来。主流的浏览器包括：</p>
+<ul>
+<li>firefox</li>
+<li>opera</li>
+<li>google-chrome</li>
+<li>IE</li>
+</ul>
+<p>从我的了解中，我认为除了个别属性，IE的支持效果是比较差的。</p>
+<p><code>&lt;meta http-equive=&quot;x-ua-compatible&quot; content=&quot;IE=EDGE&quot;</code></p>
+<p>并且因为windows IE低级别浏览器的使用用户较多，因此很多时候为了看上去效果不错，从而去模拟某个特殊版本的IE浏览器的渲染方式。该标签从IE8中的专有标记</p>
+<p>对于不同的浏览器，对于w3c中的属性支持度也不尽相同，但是大多数都有着自己的实现方式和标签前缀：</p>
+<ul>
+<li>chrome:-webkit-</li>
+<li>firefox:-moz-</li>
+<li>opera: -o-</li>
+<li>IE：-ms-</li>
+</ul>
+<h3 id="响应式布局"><a href="#响应式布局" class="headerlink" title="响应式布局"></a>响应式布局</h3><p>响应式布局是基于思想：“一个网站可以兼容多个终端”<br>为了让网页适应终端屏幕的变化，一般需要在网页的<code>&lt;head&gt;</code>中插入以下语句：</p>
+<p><code>&lt;meta name=&quot;viewport content=&quot;width=device-width initial-scale=1.0&quot;</code></p>
+<p>除此之外为了支持响应式布局，对网页布局会进行修改<br>增加媒介查询<br>图片的大小进行切割等技术</p>
+<h2 id="javascript"><a href="#javascript" class="headerlink" title="javascript"></a>javascript</h2><h2 id="nodejs"><a href="#nodejs" class="headerlink" title="nodejs"></a>nodejs</h2>
       
     </div>
 
@@ -506,7 +533,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#关于本博客"><span class="nav-number">1.</span> <span class="nav-text">关于本博客</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#简单的开始"><span class="nav-number">1.1.</span> <span class="nav-text">简单的开始</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#我的前端实验室"><span class="nav-number">1.2.</span> <span class="nav-text">我的前端实验室</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#关于本博客"><span class="nav-number">1.</span> <span class="nav-text">关于本博客</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#简单的开始"><span class="nav-number">1.1.</span> <span class="nav-text">简单的开始</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#我的前端实验室"><span class="nav-number">1.2.</span> <span class="nav-text">我的前端实验室</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#对于前端开发的认识"><span class="nav-number">2.</span> <span class="nav-text">对于前端开发的认识</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#一些我认为在html中基础知识"><span class="nav-number">3.</span> <span class="nav-text">一些我认为在html中基础知识</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#主流浏览器"><span class="nav-number">3.1.</span> <span class="nav-text">主流浏览器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#响应式布局"><span class="nav-number">3.2.</span> <span class="nav-text">响应式布局</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#javascript"><span class="nav-number">4.</span> <span class="nav-text">javascript</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#nodejs"><span class="nav-number">5.</span> <span class="nav-text">nodejs</span></a></li></ol></div>
             
           </div>
         </section>
