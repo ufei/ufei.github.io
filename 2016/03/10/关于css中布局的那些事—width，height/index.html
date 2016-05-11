@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="css3," />
 
 
 
@@ -84,16 +84,40 @@
 
 
 
-<meta name="description" content="在纯粹的人生中,做好每个细节">
-<meta property="og:type" content="website">
-<meta property="og:title" content="categories">
-<meta property="og:url" content="http://yoursite.com/categories/index.html">
+<meta name="description" content="width，height深入理解首先需要注意，在css中，width和height的默认值为auto。常常我们用这两个属性的时候有两种用法：
+
+使用固定px
+使用流动布局以%来定义
+
+有些情况下我们希望子元素的高度和父元素的高度一致，在这种情况下使用inherit，但是取inherit的时候需要注意：inheirt：等于其父元素的声明值
+声明值按以下三个原则取值：
+
+如果元素样式表中有定义属性及属">
+<meta property="og:type" content="article">
+<meta property="og:title" content="关于css中布局的那些事—width，height">
+<meta property="og:url" content="http://yoursite.com/2016/03/10/关于css中布局的那些事—width，height/index.html">
 <meta property="og:site_name" content="探索的前端学习">
-<meta property="og:description" content="在纯粹的人生中,做好每个细节">
-<meta property="og:updated_time" content="2016-05-09T10:14:47.943Z">
+<meta property="og:description" content="width，height深入理解首先需要注意，在css中，width和height的默认值为auto。常常我们用这两个属性的时候有两种用法：
+
+使用固定px
+使用流动布局以%来定义
+
+有些情况下我们希望子元素的高度和父元素的高度一致，在这种情况下使用inherit，但是取inherit的时候需要注意：inheirt：等于其父元素的声明值
+声明值按以下三个原则取值：
+
+如果元素样式表中有定义属性及属">
+<meta property="og:updated_time" content="2016-05-11T07:33:40.802Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="categories">
-<meta name="twitter:description" content="在纯粹的人生中,做好每个细节">
+<meta name="twitter:title" content="关于css中布局的那些事—width，height">
+<meta name="twitter:description" content="width，height深入理解首先需要注意，在css中，width和height的默认值为auto。常常我们用这两个属性的时候有两种用法：
+
+使用固定px
+使用流动布局以%来定义
+
+有些情况下我们希望子元素的高度和父元素的高度一致，在这种情况下使用inherit，但是取inherit的时候需要注意：inheirt：等于其父元素的声明值
+声明值按以下三个原则取值：
+
+如果元素样式表中有定义属性及属">
 
 
 
@@ -111,13 +135,7 @@
   };
 </script>
 
-  <title>
-  
-
-  
-    分类 | 探索的前端学习
-  
-</title>
+  <title> 关于css中布局的那些事—width，height | 探索的前端学习 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -138,7 +156,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left  ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -238,16 +256,167 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
     
-      <div class="category-all-page">
-        <div class="category-all-title">
-            目前共计 3 个分类
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                关于css中布局的那些事—width，height
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-03-10T15:19:36+08:00" content="2016-03-10">
+              2016-03-10
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/前端/" itemprop="url" rel="index">
+                    <span itemprop="name">前端</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/03/10/关于css中布局的那些事—width，height/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2016/03/10/关于css中布局的那些事—width，height/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/2016/03/10/关于css中布局的那些事—width，height/" class="leancloud_visitors" data-flag-title="关于css中布局的那些事—width，height">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
         </div>
-        <div class="category-all">
-          <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/前端/">前端</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/工具/">工具</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/部署工具/">部署工具</a><span class="category-list-count">1</span></li></ul>
-        </div>
-      </div>
+      </header>
     
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="width，height深入理解"><a href="#width，height深入理解" class="headerlink" title="width，height深入理解"></a>width，height深入理解</h2><p>首先需要注意，在css中，width和height的默认值为auto。<br>常常我们用这两个属性的时候有两种用法：</p>
+<ol>
+<li>使用固定px</li>
+<li>使用流动布局以%来定义</li>
+</ol>
+<p>有些情况下我们希望子元素的高度和父元素的高度一致，在这种情况下使用inherit，但是取inherit的时候需要注意：<br>inheirt：等于<strong>其父元素的声明值</strong></p>
+<p>声明值按以下三个原则取值：</p>
+<ol>
+<li>如果元素样式表中有定义属性及属性值，则其为声明值</li>
+<li>否则，如果元素不是文档树的根，而其父元素有定义属性及属性值，且属性可被继承时，则父元素对应属性计算后得到的值</li>
+<li>否则，声明值取元素对应属性的默认值</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">&lt;style&gt;</span><br><span class="line">	.container&#123;</span><br><span class="line">    	width:100%;</span><br><span class="line">        height:400px;</span><br><span class="line">        display:-webkit-box;</span><br><span class="line">        display:box;</span><br><span class="line">    &#125;</span><br><span class="line">    .middle&#123;</span><br><span class="line">    	width:600px;</span><br><span class="line">    &#125;</span><br><span class="line">    .right&#123;</span><br><span class="line">    	-webkit-box-flex:1;</span><br><span class="line">    	box-flex:1;</span><br><span class="line">    &#125;</span><br><span class="line">    .content&#123;</span><br><span class="line">    	width:100%;</span><br><span class="line">        height:width;</span><br><span class="line">    &#125;</span><br><span class="line">&lt;/style&gt;</span><br><span class="line"></span><br><span class="line">&lt;div class=&quot;container&quot;&gt;</span><br><span class="line">	&lt;div class=&quot;middle&quot;&gt;</span><br><span class="line">    	&lt;div class=&quot;content&quot;&gt;&lt;/div&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">    &lt;div class=&quot;right&quot;&gt;&lt;/div&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+<p>在上面这个例子中，content中的height属性实际上是继承了middle中的height：auto，虽然通过盒模型父div给了子div高度。<br>但是因为没有在middle中设定height属性，因此此height属性的声明值为auto。</p>
+<p>那么在上述的例子中使用：height：100%可以吗？<br>也是不可以的，percentage的取值是以父元素中的包含的height或者width为基准计算的，因此如果父元素的声明值为auto，那么auto的100%没有意义</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/css3/" rel="tag">#css3</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/03/09/rokomongo在ubuntu上的配置方式/" rel="next" title="rokomongo在ubuntu上的配置方式">
+                <i class="fa fa-chevron-left"></i> rokomongo在ubuntu上的配置方式
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 
@@ -286,8 +455,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/uploads/avatar.jpg"
@@ -357,6 +535,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#width，height深入理解"><span class="nav-number">1.</span> <span class="nav-text">width，height深入理解</span></a></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -453,6 +642,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 
@@ -469,9 +662,9 @@
 
     <script type="text/javascript">
       var disqus_shortname = 'rzhao';
-      var disqus_identifier = 'categories/index.html';
-      var disqus_title = 'categories';
-      var disqus_url = 'http://yoursite.com/categories/index.html';
+      var disqus_identifier = '2016/03/10/关于css中布局的那些事—width，height/';
+      var disqus_title = '关于css中布局的那些事—width，height';
+      var disqus_url = 'http://yoursite.com/2016/03/10/关于css中布局的那些事—width，height/';
 
       function run_disqus_script(disqus_script){
         var dsq = document.createElement('script');
